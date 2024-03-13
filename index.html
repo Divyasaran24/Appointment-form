@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+    <style>
+        h1{
+            background-color: blue;
+            color: white;
+            margin: 0;
+            padding: 10px;
+
+        }
+        h3{
+            background-color: blue;
+            color: white;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <h1>Appointment Request</h1>
+        <label for="">Name</label> <br>
+            <input type="text" required> <br>
+        <label for="">Email</label> <br>
+            <input type="mail" required> <br>
+        <label for="">Birth date</label><br>
+            <input type="date" required><br>
+        <label for="">Phone</label><br>
+            <input type="number" required> <br>
+        <label for="">Is this your first visit here?</label> <br>
+            <input type="radio" name="" id="">Yes
+            <input type="radio" name="" id="">No <br>
+    </table>
+    <h3>Appointment Information</h3>
+    <table>
+        <tr>
+            <td>
+                <label for="a">Appoinment date</label>
+             </td>
+            <td>
+                <label for="b">Time</label>
+            </td>
+        </tr>
+        <tr>
+            <td><input type="date" name="" id="a" required></td>
+            <td><input type="time" name="" id="b" required></td>
+        </tr>
+    </table>
+    <button>submit</button>
+</body>
+</html>
